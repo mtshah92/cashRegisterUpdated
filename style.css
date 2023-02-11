@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: auto;
+  text-align: center;
+  background-color: #86efac;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 1rem;
+}
+
+#billInputField {
+  padding: 0.5rem;
+}
+
+#billAmount {
+  border-color: #f59e0b;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.25rem;
+}
+#next-button {
+  margin: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border-color: white;
+}
+
+#next-button:hover {
+  border-color: #94a3b8;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #22c55e;
+  color: #ffff;
+}
+.cashInputField {
+  padding: 0.5rem;
+}
+
+#cashAmount {
+  border-color: #f59e0b;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.25rem;
+}
+.btn {
+  padding: 1.5rem;
+}
+
+.btn-check {
+  padding: 0.5rem;
+}
+.btn-check:hover {
+  border-color: #94a3b8;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #22c55e;
+  color: #ffff;
+}
+
+table {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid;
+
+  padding: 0.5rem;
+}

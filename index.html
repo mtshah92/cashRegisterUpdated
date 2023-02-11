@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register App</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="title">Cash Register</h2>
+      <p class="appDetail">
+        Enter Bill Amount and Cash Given to know minimum number of notes to be
+        return.
+      </p>
+    </header>
+
+    <main>
+      <div id="billInputField">
+        <div>
+          <label for="billAmount">Enter Bill Amount</label>
+        </div>
+        <input type="number" id="billAmount" />
+      </div>
+
+      <div id="next-button-field">
+        <button id="next-button">Next</button>
+      </div>
+
+      <div id="cashInputField">
+        <label for="cashAmount">Enter Cash Given</label>
+        <div>
+          <input type="number" id="cashAmount" />
+        </div>
+
+        <div class="btn">
+          <button class="btn-check">Check</button>
+        </div>
+      </div>
+
+      <div class="msg"></div>
+
+      <table>
+        <tr>
+          <th>No of Notes</th>
+          <td class="twoThousand"></td>
+          <td class="fiveHundred"></td>
+          <td class="twoHundred"></td>
+          <td class="hundred"></td>
+          <td class="fifty"></td>
+          <td class="twenty"></td>
+          <td class="ten"></td>
+          <td class="one"></td>
+        </tr>
+
+        <tr>
+          <th>Note</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>200</td>
+          <td>100</td>
+          <td>50</td>
+          <td>20</td>
+          <td>10</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </main>
+
+    <footer></footer>
+
+    <script src="main.js" type="text/javascript"></script>
+  </body>
+</html>
